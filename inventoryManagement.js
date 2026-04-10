@@ -1,9 +1,7 @@
 // Write your code here
 const products = ["Laptop","Phone","Headphones","Monitor"]
-function logFirstProduct () {
-  return products[0];
-}
-console.log(logFirstProduct())
+function logFirstProduct() {  console.log(products[0]);
+}logFirstProduct();
 
 function addProduct (product) {
   products.push(product);
